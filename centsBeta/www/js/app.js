@@ -17,3 +17,18 @@ angular.module('starter', ['ionic'])
     }
   });
 })
+
+
+// Setting up the AngularUI router for the different pages
+
+.config(function($stateProvider, $urlRouterProvider) {
+ 
+  $stateProvider
+  .state('welcome', {
+    url: '/',
+    templateUrl: 'templates/welcome.html'
+  });
+ 
+  $urlRouterProvider.otherwise("/");
+ 
+})

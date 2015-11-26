@@ -1,1 +1,40 @@
 /* Empty. Add your own CSS if you like */
+
+/** CSS for the welcome page **/
+
+.welcomeobjects
+{
+ display: -webkit-flex;
+ -webkit-flex-direction: column;
+ height:50%;
+}
+.welcomeobjects > .header
+{
+   padding:40px;
+}
+.welcomebuttons 
+{
+   width: 100%;
+   position:absolute;
+   bottom:0px;
+}
+
+.welcomebuttons .button
+{
+
+ background:transparent;
+   margin: 0px;
+}
+.welcomebuttons .last
+{
+   border-top:none;
+   border-bottom:none;
+}
+
+.blue-gradient 
+{
+   background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#358ca7), color-stop(100%,#012555)) 
+}
+
+
+
